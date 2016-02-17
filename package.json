@@ -1,0 +1,16 @@
+{
+  "name": "typescript-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mermaid index.mmd -e ./node_modules/.bin/phantomjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mermaid": "^0.5.8",
+    "phantomjs": "^1.9.0"
+  }
+}

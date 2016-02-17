@@ -1,0 +1,38 @@
+%% Typescript Type Hierarchy
+graph TB
+  Any --> Primitive
+  Any --> Object
+  Any --> Union
+  Any --> Intersection
+
+  Primitive --> Number
+  Number --> Enum
+  Enum --> Void
+
+  Primitive --> Boolean
+  Boolean --> Void
+
+  Primitive --> String
+  String --> Void
+
+  Primitive --> Symbol
+  Symbol --> Void
+
+  Object --> Class
+  Class --> Void
+
+  Object --> Interface
+  Interface --> Void
+
+  Object --> Array
+  Array --> Tuple
+  Tuple --> Void
+
+  Object --> Function
+  Function --> Void
+
+  Object --> Constructor
+  Constructor --> Void
+
+  Void --> Null
+  Null --> Undefined

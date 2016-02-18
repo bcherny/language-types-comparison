@@ -1,11 +1,10 @@
 {
-  "name": "typescript-types",
+  "name": "language-types-comparison",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "README.md",
   "scripts": {
-    "build": "mermaid index.mmd -e ./node_modules/.bin/phantomjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mermaid *.mmd -e ./node_modules/.bin/phantomjs"
   },
   "author": "",
   "license": "ISC",

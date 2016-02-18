@@ -1,0 +1,23 @@
+%% Scala Type Hierarchy
+
+graph TB
+  Any --> AnyVal
+  Any --> AnyRef
+
+  AnyVal --> Double
+  AnyVal --> Float
+  AnyVal --> Long
+  AnyVal --> Int
+  AnyVal --> Short
+  AnyVal --> Byte
+  AnyVal --> Char
+  AnyVal --> Boolean
+  AnyVal --> Unit
+
+  AnyRef --> Object
+  Object --> Seq
+  Object --> List
+  Object --> Option
+  AnyRef --> String
+
+  Nothing --> Null
